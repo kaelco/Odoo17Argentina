@@ -147,7 +147,7 @@ Para soporte técnico personalizado, contactá a:
 
 **Kaelco Sistemas**  
 Email: info@kaelco.com.ar  
-WhatsApp: +54 341 420183
+WhatsApp: +54 341 6420183
 
 ---
 
