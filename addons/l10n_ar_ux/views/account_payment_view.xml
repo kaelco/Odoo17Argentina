@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_account_payment_form" model="ir.ui.view">
+        <field name="name">account.payment.form.inherited</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="l10n_latam_check.view_account_payment_form_inherited" />
+        <field name="arch" type="xml">
+            <field name="partner_id" position="after">
+                <!-- mostramos cuit cuando estamos haciendo transferencia o pagando con cheque ya que es util tenerlo a mano para hacer la transacción en el banco -->
+                <field name="l10n_ar_partner_vat" invisible="state != 'draft' or not l10n_ar_partner_vat or is_internal_transfer or (not show_partner_bank_account and payment_method_code not in ['out_third_party_checks', 'check_printing'])"/>
+            </field>
+        </field>
+    </record>
+</odoo>

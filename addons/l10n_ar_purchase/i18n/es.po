@@ -1,0 +1,102 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ar_purchase
+# 
+# Translators:
+# MaxiMezzavilla, 2024
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-15 15:12+0000\n"
+"PO-Revision-Date: 2024-03-11 20:43+0000\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
+"Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "<br/><strong>Payment Terms: </strong>"
+msgstr "<br/><strong>Términos de Pago: </strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "<br/><strong>Shipping address:</strong>"
+msgstr "<br/><strong>Dirección de Entrega:</strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "<br/><strong>Your Order Reference:</strong>"
+msgstr "<br/><strong>Su referencia de pedido:</strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+msgid "<strong>% VAT</strong>"
+msgstr "<strong>% IVA</strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "<strong>Purchase Representative:</strong>"
+msgstr "<strong>Comprador:</strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "<strong>Supplier: </strong>"
+msgstr "<strong>Proveedor: </strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "<strong>VAT Cond: </strong>"
+msgstr "<strong>Cond. IVA: </strong>"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.custom_header_purchaseorder
+msgid "Approve date:"
+msgstr "Fecha de aprobación:"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+msgid "Cancelled Purchase Order"
+msgstr "Pedido de compra cancelado"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.custom_header_purchaseorder
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.custom_header_purchasequotation
+msgid "Date due:"
+msgstr "Fecha de vencimiento:"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "Invalid document as invoice"
+msgstr "Doc. no válido como factura"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Página: <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: l10n_ar_purchase
+#: model:ir.model,name:l10n_ar_purchase.model_purchase_order
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: l10n_ar_purchase
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.report_purchasequotation_document
+msgid "Request for Quotation"
+msgstr "Solicitud de presupuesto"

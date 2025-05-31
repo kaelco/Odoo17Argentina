@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_account_journal_form" model="ir.ui.view">
+        <field name="model">account.journal</field>
+        <field name="name">account.journal.form</field>
+        <field name="inherit_id" ref="l10n_ar.view_account_journal_form"/>
+        <field name="arch" type="xml">
+
+            <field name="l10n_latam_use_documents" position="after">
+                <field name="discriminate_taxes" invisible="country_code != 'AR' or l10n_latam_use_documents or type != 'sale'"/>
+            </field>
+
+            <!-- dejamos el campo visible aun sin use documents porque con l10n_ar_ux usamos reporte look and feel argentino aun sin documentos -->
+            <field name="l10n_ar_afip_pos_partner_id" position="attributes">
+                <attribute name="invisible">country_code != 'AR' or type not in ['sale', 'purchase']</attribute>
+                <attribute name="required">l10n_ar_is_pos or not l10n_latam_use_documents and country_code == 'AR' and type == 'sale'</attribute>
+            </field>
+
+            <xpath expr="//page[@name='advanced_settings']/group" position="after">
+                <group string="QR-Code" invisible="country_code != 'AR' or type != 'sale' or not l10n_latam_use_documents">
+                    <field name="qr_code_label"/>
+                    <field name="qr_code"/>
+                </group>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,486 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ar_afipws_fe
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250415\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-16 01:22+0000\n"
+"PO-Revision-Date: 2025-04-16 01:22+0000\n"
+"Last-Translator: Berisoft <berisoft.gestion@gmail.com>, 2025\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.res_config_settings_view_form
+msgid ""
+"<strong>Account's Currency Dependant</strong>: The information sent to ARCA "
+"will depend on the currency configured in the receivable account used in the"
+" transaction."
+msgstr ""
+"<strong>Depende de la Moneda de la Cuenta</strong>: se informará dependiente "
+"de la moneda en la cuenta por cobrar usada en la transacción."
+
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.res_config_settings_view_form
+msgid "<strong>Default Policy for Foreign Currency Payments:</strong>"
+msgstr "<strong>Política por defecto para el Pago en Moneda Extranjera:</strong>"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.res_config_settings_view_form
+msgid ""
+"<strong>No</strong>: By default, will not report payments as foreign "
+"currency."
+msgstr ""
+"<strong>No</strong>: No reportará que los pagos son en moneda extranjera por "
+"defecto."
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.res_config_settings_view_form
+msgid ""
+"<strong>Yes</strong>: Will always inform ARCA that payments are made in "
+"foreign currency."
+msgstr ""
+"<strong>Si</strong>: Siempre informará a ARCA que los pagos serán en "
+"moneda extranjera."
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__res_config_settings__l10n_ar_afip_fce_transmission__adc
+msgid "ADC - AGENTE DE DEPOSITO COLECTIVO"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "AFIP"
+msgstr "ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_message
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_message
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_message
+msgid "AFIP Message"
+msgstr "Mensaje de ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_associated_period_from
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_associated_period_from
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_associated_period_from
+msgid "AFIP Period from"
+msgstr "ARCA Período desde"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_associated_period_to
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_associated_period_to
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_associated_period_to
+msgid "AFIP Period to"
+msgstr "ARCA Período hasta"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_qr_code
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_qr_code
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_qr_code
+msgid "AFIP QR code"
+msgstr "Código QR ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_journal__afip_ws
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_afipws_connection__afip_ws
+msgid "AFIP WS"
+msgstr "WS ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model,name:l10n_ar_afipws_fe.model_afipws_connection
+msgid "AFIP WS Connection"
+msgstr "Conexión de WS ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_xml_request
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_xml_request
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_xml_request
+msgid "AFIP XML Request"
+msgstr "Solicitud ARCA XML"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_xml_response
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_xml_response
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_xml_response
+msgid "AFIP XML Response"
+msgstr "Respuesta ARCA XML"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "AFIP associated period"
+msgstr "ARCA período asociado"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "AFIP authorization"
+msgstr "Autorización ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_auth_mode
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_auth_mode
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_auth_mode
+msgid "AFIP authorization mode"
+msgstr "Modo de autorización ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_result
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_move__afip_result
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_payment__afip_result
+msgid "AFIP request result"
+msgstr "Resultado solicitud ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__res_company__l10n_ar_payment_foreign_currency__account
+msgid "Account's Currency Dependant"
+msgstr "Depende de la moneda de la cuenta"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_result__a
+msgid "Aceptado"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__asynchronous_post
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__asynchronous_post
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__asynchronous_post
+msgid "Asynchronous Post"
+msgstr "Publicación asincrónica"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__afipws_connection__afip_ws__wsbfe
+msgid "Bono Fiscal -con detalle- RG2557 (WSBFE)"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_auth_mode__cae
+msgid "CAE"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.report_invoice_document
+msgid "CAE Due Date:"
+msgstr "Fecha de vencimiento CAE:"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_auth_code
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_auth_code
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_auth_code
+msgid "CAE/CAI/CAEA Code"
+msgstr "Código CAE/CAI/CAEA"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_auth_code_due
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_auth_code_due
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_auth_code_due
+msgid "CAE/CAI/CAEA due Date"
+msgstr "Fecha de vencimiento CAE/CAI/CAEA"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.report_invoice_document
+msgid "CAE:"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_auth_mode__caea
+msgid "CAEA"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_auth_mode__cai
+msgid "CAI"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.ui.menu,name:l10n_ar_afipws_fe.menu_action_afipws_certificate_alias
+msgid "Certificates"
+msgstr "Certificados"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "Check rate"
+msgstr "Consultar tasa"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model,name:l10n_ar_afipws_fe.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model,name:l10n_ar_afipws_fe.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__afipws_connection__afip_ws__wscdc
+msgid "Constatación de Comprobantes (WSCDC)"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__l10n_ar_currency_code
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__l10n_ar_currency_code
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__l10n_ar_currency_code
+msgid "Currency Code"
+msgstr "Código de moneda"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_bank_statement_line__l10n_ar_currency_code
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_move__l10n_ar_currency_code
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_payment__l10n_ar_currency_code
+msgid "Currency Code (ISO 4217)"
+msgstr "Código de moneda (ISO 4217)"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "Date From"
+msgstr "Fecha desde"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "Date to"
+msgstr "Fecha hasta"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_res_company__l10n_ar_payment_foreign_currency
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_res_config_settings__l10n_ar_payment_foreign_currency
+msgid "Default Policy for Payment in Foreign Currency"
+msgstr "Política por defecto para el Pago en Moneda Extranjera"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Dummy Test"
+msgstr "Prueba de conexión"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Dummy test to check connection to selected webservice"
+msgstr "Prueba de conexión al webservice seleccionado"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_res_config_settings__l10n_ar_afip_fce_transmission
+msgid ""
+"Este campo sera necesario cuando informes comprobantes del tipo FCE MiPyME"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__afipws_connection__afip_ws__wsfex
+msgid "Exportación -con detalle- RG2758 (WSFEXv1)"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_fce_es_anulacion
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_fce_es_anulacion
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_fce_es_anulacion
+msgid "FCE: Es anulacion?"
+msgstr "FCE: ¿Es anulación?"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_res_config_settings__l10n_ar_afip_fce_transmission
+msgid "FCE: Opción de Transmisión"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get Connection"
+msgstr "Obtener conexión"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get Connection For this webservice and create it if no valid"
+msgstr "Obtener conexión para este webservice y crearla si no hay ningúna válida"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get Document Types"
+msgstr "Obtener tipos de Documentos"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get Enable Point of Sales for this webservice"
+msgstr "Obtener Puntos de Venta Activos para este Webservice"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get NCM"
+msgstr "Obtener NCM"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get Points Of Sale"
+msgstr "Obtener Puntos de Venta"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get Zones"
+msgstr "Obtener zonas"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get next Inv"
+msgstr "Obtener próxima factura"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get valid document types for this webservice"
+msgstr "Obtener tipos de documento válidos para este webservice"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Get zones for this webservice"
+msgstr "Obtener zonas para este webservice"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.actions.server,name:l10n_ar_afipws_fe.ir_cron_asynchronous_post_ir_actions_server
+msgid "Invoice: Post draft entries asynchronous"
+msgstr "Factura: Entradas de borrador de publicación asincrónicas"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model,name:l10n_ar_afipws_fe.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model,name:l10n_ar_afipws_fe.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__l10n_ar_payment_foreign_currency
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__l10n_ar_payment_foreign_currency
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__l10n_ar_payment_foreign_currency
+msgid "L10N Ar Payment Foreign Currency"
+msgstr "l10_ar Pago en moenda extranjera"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__afipws_connection__afip_ws__wsmtxca
+msgid "Mercado interno -con detalle- RG2904 (WSMTXCA)"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__afipws_connection__afip_ws__wsfe
+msgid "Mercado interno -sin detalle- RG2485 (WSFEv1)"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__l10n_ar_payment_foreign_currency__n
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__res_company__l10n_ar_payment_foreign_currency__n
+msgid "No"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_result__o
+msgid "Observado"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Obtener códigos del Nomenclador Común del Mercosur"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_account_journal_form
+msgid "Obtener numeros de factura"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.res_config_settings_view_form
+msgid ""
+"Please select the default option that will be used to inform ARCA whether "
+"the payment will be made in foreign currency, as required by RG 5616/2024:"
+msgstr ""
+"Por favor seleccionar la opción por defecto que será usada para informar a "
+"ARCA si el pago se hará en moneda extranjera, como es requerido por la RG "
+"5616/2024:"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_result__r
+msgid "Rechazado"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_result
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__afip_result
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__afip_result
+msgid "Resultado"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__res_config_settings__l10n_ar_afip_fce_transmission__sca
+msgid "SCA - TRANSFERENCIA AL SISTEMA DE CIRCULACION ABIERTA"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_bank_statement_line__afip_fce_es_anulacion
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_move__afip_fce_es_anulacion
+#: model:ir.model.fields,help:l10n_ar_afipws_fe.field_account_payment__afip_fce_es_anulacion
+msgid ""
+"Solo utilizado en comprobantes MiPyMEs (FCE) del tipo débito o crédito. Debe informar:\n"
+"- SI: sí el comprobante asociado (original) se encuentra rechazado por el comprador\n"
+"- NO: sí el comprobante asociado (original) NO se encuentra rechazado por el comprador"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.report_invoice_document
+msgid ""
+"THE PURCHASER ASSUMES THE COMMITMENT, IN THE NATURE OF AN AFFECTED "
+"DECLARATION, OF NOT EXPORTING THE PROPERTY DURING THE TERM OF THREE 3 YEARS "
+"FROM THE ACQUISITION<br/>"
+msgstr ""
+"EL ADQUIRENTE ASUME EL COMPROMISO, CON CARÁCTER DE DECLARACIÓN JURADA, "
+"DE NO EXPORTAR EL BIEN DURANTE EL PLAZO DE TRES 3 AÑOS A PARTIR DE LA "
+"ADQUISICIÓN<br/>"
+
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "Validar en AFIP"
+msgstr "Validar en ARCA"
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.view_move_form
+msgid "Validar en HOMOLOGACION"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model,name:l10n_ar_afipws_fe.model_validate_account_move
+msgid "Validate Account Move"
+msgstr "Validar movimiento contable"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_bank_statement_line__validation_type
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_move__validation_type
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_account_payment__validation_type
+msgid "Validation Type"
+msgstr "Tipo de validación"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__l10n_ar_payment_foreign_currency__s
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__res_company__l10n_ar_payment_foreign_currency__s
+msgid "Yes"
+msgstr "Si"
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields,field_description:l10n_ar_afipws_fe.field_validate_account_move__async_post
+msgid "async_post"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model:ir.model.fields.selection,name:l10n_ar_afipws_fe.selection__account_move__afip_result__
+msgid "n/a"
+msgstr ""
+
+#. module: l10n_ar_afipws_fe
+#: model_terms:ir.ui.view,arch_db:l10n_ar_afipws_fe.report_invoice_document
+msgid "qr"
+msgstr "QR"

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<odoo noupdate="1">
+    <record id="account_vat_ledger_xlsx" model="ir.actions.report">
+        <field name="name">Account Vat Ledger</field>
+        <field name="model">account.vat.ledger</field>
+        <field name="report_name">account_vat_ledger_xlsx</field>
+        <field name="report_type">xlsx</field>
+        <field name="print_report_name">'Libro IVA %s %s' % (object.type == 'purchase' and 'Compras' or 'Ventas', object.date_to)</field>
+    </record>
+</odoo>

@@ -1,0 +1,40 @@
+services:
+  web:
+    build: .
+    container_name: odoo17-web
+    depends_on:
+      - db
+    ports:
+      - "8069:8069"
+    volumes:
+      - odoo17custom-web-data:/var/lib/odoo
+      - ./conf:/etc/odoo
+      - ./addons:/mnt/extra-addons
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=adminDB
+    restart: always
+
+  db:
+    image: postgres:15
+    container_name: odoo17-db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=adminDB
+      - POSTGRES_USER=odoo
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - odoo17custom-db-data:/var/lib/postgresql/data/pgdata
+    restart: always
+
+volumes:
+  odoo17custom-db-data:
+    external:
+      name: odoo-17custom_odoo17custom-db-data
+  odoo17custom-web-data:
+    external:
+      name: odoo-17custom_odoo17custom-web-data
+
+
+

@@ -1,0 +1,9 @@
+httplib2
+openpyxl
+Pillow
+psutil
+pyserial
+python-ldap
+pysimplesoap
+git+https://github.com/reingart/pyafipws.git
+
